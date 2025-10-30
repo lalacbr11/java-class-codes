@@ -14,6 +14,8 @@ public class ForLoop1
       
       int x = 1;
       System.out.println("post increment x = " + (x++) + " x = " + x) // post increment
+      x = 1; // reset
+      System.out.println(" x = " + x + " pre increment x = " + (++x) ); // pre increment
 
    }
 } 
